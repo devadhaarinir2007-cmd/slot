@@ -1,4 +1,4 @@
-# Ex03 Time Table
+# Ex02 Time Table
 ## Date:
 
 ## AIM
@@ -24,95 +24,98 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dhivya</title>
 </head>
 <body>
-    <center><img src="logo.png" height="150" width="800" alt=""> </center>
-    <h3 align="center">  SLOT TIME TABLE - DEVADHAARINI.R (25010156) </h3>
-    <table align="center" border="8" cellpadding="6" cellspacing="4" bgcolor="pastel green">
-        <tr>
-            <th>Day/Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-        </tr>
-        <tr>
-            <td>8-10</td>
-            <td>CE</td>
-            <td>CE</td>
-            <td>FP</td>
-            <td>WEB</td>
-            <td>FP</td>
-            <td>FP</td>
-        </tr>
-        <tr>
-            <td>10-12</td>
-            <td>WEB</td>
-            <td>FP</td>
-            <td>PY</td>
-            <td>FP</td>
-            <td>FP</td>
-            <td>CE</td>
-        </tr>
-        <tr>
-            <td>1-3</td>
-            <td>FP</td>
-            <td>FP</td>
-            <td>MM</td>
-            <td>CE</td>
-            <td>WEB</td>
-            <td>PY</td>
-        </tr>
-        <tr>
-            <td>3-5</td>
-            <td>FP</td>
-            <td>PY</td>
-            <td>WEB</td>
-            <td>PY</td>
-            <td>WEB</td>
-            <td>PY</td>
-        </tr>
-        <br>
-        <table border="5" cellpadding="7" cellspacing="2" align="center" bgcolor="lightblue">
-         <tr>
-           <th><h4>S.NO</h4></th>    
-           <th><h4>SUBJECT CODE </h4></th>
-           <th><h4>SUBJECT NAME </h4></th>
-         </tr>
-         <tr>
-            <th>1.</th>
-            <td>4S3-1</td>
-            <td>PYTHON PROGRAMMING  </td>
-         </tr>
-         <tr>
-             <th>2.</th>
-             <td>4V1-2</td>
-             <td>COMMUNICATION ENGLISH  </td>
-          </tr> 
-          <tr>
-             <th>3.</th>
-             <td>4L1-1</td>
-             <td>FUNDAMENDALS OF C PROGRAMMING  </td>
-          </tr>
-          <tr>
-             <th>4.</th>
-             <td>6J1-1</td>
-             <td>FUNDAMENDALS OF WEB APPLICATION DEVELOPMENT   </td>
-          </tr>
+     <img src="logo.png" algin="center" height="130px" width="600px">
+     <h1 align="left">TIMETABLE-25017613</h1>
+        <table align="center" border="3" cellspacing="5" cellpadding="10">
 
+    <table BORDER="4" bgcolor="cyan" height="500" width="750" cellpadding="10" cellspacing="10">
+        <tr> 
+            <th colspan="5" align="center" bgcolor="red"> TIMETABLE</th>
+             </tr>
+        <tr>
+                    <th> DAY</th>
+            <td rowspan="1" width="25%">8-10</td>
+            <td rowspan="1" width="25%">10-12</td>
+            <td rowspan="1" width="25%">12-1</td>
+            <td rowspan="1" width="25%">1-3</td>
+            <td rowspan="1" width="25%">3-5</td>
+            </tr>
+    <tr>
+        <th>Monday </th>
+                <td width="25%">NILL</td>
+        <td width="25%">Python</td>
+        <td width="25%">lunch</td>
+        <td width="25%">NILL</td>
+        <td width="25%">Web</td>
+    </tr>
+     <tr>
+            <Th>Tuesday</Th>
+                <td width="25%">web</td>
+        <td width="25%">DS</td>
+        <td width="25%">lunch</td>
+        <td width="25%">DS</td>
+        <td width="25%">Web</td>
+    </tr>
+     <tr>
+            <Th>Wednesday</Th>
+        <td width="25%">NILL</td>
+        <td width="25%">web</td>
+        <td width="25%">lunch</td>
+        <td width="25%">Mentor session</td>
+        <td width="25%">Python</td>
+    </tr>
+     <tr>
+            <Th>Thursday</Th>
+        
+        <td width="25%">DS</td>
+        <td width="25%">Python</td>
+        <td width="25%">lunch</td>
+        <td width="25%">NILL</td>
+        <td width="25%">Python</td>
+    </tr>
+     <tr>
+            <Th>Friday</Th>
+        <td width="25%">web</td>
+        <td width="25%">DS</td>
+        <td width="25%">lunch</td>
+        <td width="25%">DS</td>
+        <td width="25%">Python</td>
+    </tr>
     </table>
+        <br>
+        <table border="3" cellspacing="3" cellpadding="10">
+            <tr>
+            <th>S.No</th>
+            <th>Subject Code</th>
+            <th>subject Name</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>19AI414</th>
+                <th>Fundamentals of Web Applicatin Development</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>19AI301</th>
+                <th>Python Programming</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>19AI403</th>
+                <th>Data Science</th>
+            </tr>
+        </table>      
 </body>
 </html>
-
-
+```
+         
 ## OUTPUT
 <img width="1920" height="1080" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/c461b0f7-ac55-4ce0-999e-661baa5ba1e3" />
 
