@@ -28,7 +28,7 @@ Execute the program using runserver command.
 <!DOCTYPE html>
 <html >
 <head>
-    <title>Dhivya</title>
+    <title>Devadharini.r</title>
 </head>
 <body>
      <img src="logo.png" algin="center" height="130px" width="600px">
